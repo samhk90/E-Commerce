@@ -1,0 +1,65 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    
+}
+.navbar{
+
+    background: transparent ;
+}
+.banner{
+
+    padding: 10%;
+    height: 50%;
+    width: 100%;
+    background-image: url("https://wallpapercave.com/wp/wp5085173.jpg");
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 9%;
+    left: 0;
+    height: 91%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+}
+.pcard{
+    height: 50%;
+    width: 260px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
+    background-color: white;
+    border-radius: 5px ;
+    margin: 10px 10px 10px 10px  ;
+    animation: linear 0.5s;
+
+}
+.pcard:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2.5);
+    transform: scale(1.05);
+}
+.pcard img{
+    
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+.info{
+    height:120px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
