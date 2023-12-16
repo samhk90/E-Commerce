@@ -8,42 +8,51 @@ body{
     padding: 0;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     
 }
 .navbar{
 
     background: transparent ;
+    
+}
+header{
+    background-color: transparent;
 }
 .banner{
 
-    padding: 10%;
-    height: 50%;
+    padding: 12%;
+    height: 100%;
     width: 100%;
     background-image: url("https://wallpapercave.com/wp/wp5085173.jpg");
-    /* background-attachment: fixed; */
+     /* background-attachment: fixed;  */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+    text-align: center;
+ 
 }
-.banner::before {
+/* .banner::before {
     content: "";
     position: absolute;
-    top: 9%;
+    top: 8%;
     left: 0;
-    height: 91%;
+    height: 92%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 0;
-}
+} */
 .pcard{
     height: 100%;
     width: 240px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
     background-color: white;
     border-radius: 5px ;
-    margin: 10px 10px 10px 10px  ;
+    margin: 2px 2px 2px 2px  ;
     animation: linear 0.5s;
 
 }
@@ -72,11 +81,12 @@ body{
 .title{
     text-align: center;
     font-size: 3em;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .footer{
     background-color: black;
+    padding: 20px;
 }
 .footer a{
     color: white;
