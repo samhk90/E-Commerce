@@ -6,13 +6,14 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Konoha</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary" data-bs-theme="dark" id="nav">
             <div class="container-fluid p-2">
-              <a class="navbar-brand" href="home.html" style="font-weight: bolder;">Konoha</a>
+              <a class="navbar-brand ms-3" href="home.html" style="font-weight: bolder;">Konoha</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -21,7 +22,16 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="home.html">Home</a>
                   </li>
-
+                  
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Contact Us</a>
+                  </li>
                   <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Dropdown
@@ -41,6 +51,12 @@
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-light" type="submit">Search</button>
                 </form>
+                <i class="fa fa-shopping-cart" style="font-size:24px;color:white;margin:auto 10px;"></i>
+                
+                <a href="dashboard.html">
+                  <i class="fa fa-user" style="font-size:24px;color:white;margin:auto 10px;"></i>
+                </a>
+                
               </div>
             </div>
           </nav> 
@@ -53,11 +69,24 @@
 
             
     </div>
-    
-    <div class="container-fluid p-5 border-bottom-dark ">
-      <h2 class="title">Mangas</h2>
-      <div class="row p-5">
-        <div class="col-sm-3  mt-3">
+    <div class="container-fluid p-2">
+      <h2 class="title">MANAGAS</h2>
+      <div class="row  d-flex align-items-center justify-content-center">
+        <div class="col-sm-3 d-flex align-items-center justify-content-center" mt-3">
+          <div class=" pcard ">
+        <div class="row p-1">
+            <img src="img/images.jpeg" alt="" srcset="">
+        </div>
+        <div class="row p-2 info">
+            <span><h3>One Piece</h3></span>
+            <p class="discount">(70% off)</p>
+           <span>₹2000</span>
+  
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-3  d-flex align-items-center justify-content-center mt-3">
           <div class=" pcard ">
         <div class="row p-1">
             <img src="img/images.jpeg" alt="" srcset="">
@@ -68,7 +97,7 @@
         </div>
     </div>
 </div>
-<div class="col-sm-3  mt-3">
+<div class="col-sm-3  d-flex align-items-center justify-content-center mt-3">
           <div class=" pcard ">
         <div class="row p-1">
             <img src="img/images.jpeg" alt="" srcset="">
@@ -79,18 +108,7 @@
         </div>
     </div>
 </div>
-<div class="col-sm-3 mt-3">
-          <div class=" pcard ">
-        <div class="row p-1">
-            <img src="img/images.jpeg" alt="" srcset="">
-        </div>
-        <div class="row p-3 info">
-            <span><h3>One Piece</h3></span>
-          <span>₹2000</span>
-        </div>
-    </div>
-</div>
-<div class="col-sm-3 mt-3">
+<div class="col-sm-3 d-flex align-items-center justify-content-center mt-3">
   <div class=" pcard ">
 <div class="row p-1">
     <img src="img/images.jpeg" alt="" srcset="">
@@ -102,63 +120,28 @@
 </div>
 </div>
       </div>
+      <div class="row d-flex align-items-center justify-content-center ">      <button class="d-flex align-items-center justify-content-center vtitle" ><a  href="home.html">View All</a></button></div>
+
 
     </div>
-    <div class="container-fluid p-5 ">
-      <h2 class="title">Posters</h2>
-      <div class="row p-5 ">
-        <div class="col-sm-3  mt-3">
-          <div class=" pcard ">
-        <div class="row p-1">
-            <img src="img/images.jpeg" alt="" srcset="">
-        </div>
-        <div class="row p-3 info">
-            <span><h3>One Piece</h3></span>
-          <span>₹2000</span>
-        </div>
-    </div>
-</div>
-<div class="col-sm-3  mt-3">
-          <div class=" pcard ">
-        <div class="row p-1">
-            <img src="img/images.jpeg" alt="" srcset="">
-        </div>
-        <div class="row p-3 info">
-            <span><h3>One Piece</h3></span>
-          <span>₹2000</span>
-        </div>
-    </div>
-</div>
-<div class="col-sm-3 mt-3">
-          <div class=" pcard ">
-        <div class="row p-1">
-            <img src="img/images.jpeg" alt="" srcset="">
-        </div>
-        <div class="row p-3 info">
-            <span><h3>One Piece</h3></span>
-          <span>₹2000</span>
-        </div>
-    </div>
-</div>
-<div class="col-sm-3 mt-3">
-  <div class=" pcard ">
-<div class="row p-1">
-    <img src="img/images.jpeg" alt="" srcset="">
-</div>
-<div class="row p-3 info">
-    <span><h3>One Piece</h3></span>
-  <span>₹2000</span>
-</div>
-</div>
-</div>
-
-      </div>
-
-    </div>
-    <div class="container-fluid p-5 ">
+    <div class="container-fluid p-2">
       <h2 class="title">KATANAS</h2>
-      <div class="row p-5">
-        <div class="col-sm-3  mt-3">
+      <div class="row  d-flex align-items-center justify-content-center">
+        <div class="col-sm-3 d-flex align-items-center justify-content-center" mt-3">
+          <div class=" pcard ">
+        <div class="row p-1">
+            <img src="img/images.jpeg" alt="" srcset="">
+        </div>
+        <div class="row p-2 info">
+            <span><h3>One Piece</h3></span>
+            <p class="discount">(70% off)</p>
+           <span>₹2000</span>
+  
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-3  d-flex align-items-center justify-content-center mt-3">
           <div class=" pcard ">
         <div class="row p-1">
             <img src="img/images.jpeg" alt="" srcset="">
@@ -168,8 +151,8 @@
           <span>₹2000</span>
         </div>
     </div>
-    </div>
-    <div class="col-sm-3  mt-3">
+</div>
+<div class="col-sm-3  d-flex align-items-center justify-content-center mt-3">
           <div class=" pcard ">
         <div class="row p-1">
             <img src="img/images.jpeg" alt="" srcset="">
@@ -179,32 +162,76 @@
           <span>₹2000</span>
         </div>
     </div>
-    </div>
-    <div class="col-sm-3 mt-3">
-          <div class=" pcard ">
-        <div class="row p-1">
-            <img src="img/images.jpeg" alt="" srcset="">
-        </div>
-        <div class="row p-3 info">
-            <span><h3>One Piece</h3></span>
-          <span>₹2000</span>
-        </div>
-    </div>
-    </div>
-    <div class="col-sm-3 mt-3">
-    <div class=" pcard ">
-    <div class="row p-1">
+</div>
+<div class="col-sm-3 d-flex align-items-center justify-content-center mt-3">
+  <div class=" pcard ">
+<div class="row p-1">
     <img src="img/images.jpeg" alt="" srcset="">
-    </div>
-    <div class="row p-3 info">
+</div>
+<div class="row p-3 info">
     <span><h3>One Piece</h3></span>
-    <span>₹2000</span>
-    </div>
-    </div>
-    </div>
+  <span>₹2000</span>
+</div>
+</div>
+</div>
       </div>
-    
+
     </div>
+    <div class="container-fluid p-2">
+      <h2 class="title">POSTERS</h2>
+      <div class="row  d-flex align-items-center justify-content-center">
+        <div class="col-sm-3 d-flex align-items-center justify-content-center" mt-3">
+          <div class=" pcard ">
+        <div class="row p-1">
+            <img src="img/images.jpeg" alt="" srcset="">
+        </div>
+        <div class="row p-2 info">
+            <span><h3>One Piece</h3></span>
+            <p class="discount">(70% off)</p>
+           <span>₹2000</span>
+  
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-3  d-flex align-items-center justify-content-center mt-3">
+          <div class=" pcard ">
+        <div class="row p-1">
+            <img src="img/images.jpeg" alt="" srcset="">
+        </div>
+        <div class="row p-3 info">
+            <span><h3>One Piece</h3></span>
+          <span>₹2000</span>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3  d-flex align-items-center justify-content-center mt-3">
+          <div class=" pcard ">
+        <div class="row p-1">
+            <img src="img/images.jpeg" alt="" srcset="">
+        </div>
+        <div class="row p-3 info">
+            <span><h3>One Piece</h3></span>
+          <span>₹2000</span>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3 d-flex align-items-center justify-content-center mt-3">
+  <div class=" pcard ">
+<div class="row p-1">
+    <img src="img/images.jpeg" alt="" srcset="">
+</div>
+<div class="row p-3 info">
+    <span><h3>One Piece</h3></span>
+  <span>₹2000</span>
+</div>
+</div>
+</div>
+      </div>
+
+    </div>
+
+
     <footer>
       <div class="container-fluid footer">
         <div class="row">
@@ -219,10 +246,10 @@
             <a href="">View all</a>
           </div>
           <div class="col-sm-6">
-            <span class="title" style="font-size: 1.5em; margin-bottom:5px">Contact</span><br>
-            <span class="title" style="font-size: 1.5em; margin-bottom:5px">Blog</span><br>
-            <span class="title" style="font-size: 1.5em; margin-bottom:5px">T&C</span><br>
-            <span class="title" style="font-size: 1.5em; margin-bottom:5px"> SUBSCRIBE</span><br>
+            <span class="ftitle" style="font-size: 1.5em;">Contact</span><br>
+            <span class="ftitle" style="font-size: 1.5em;">Blog</span><br>
+            <span class="ftitle" style="font-size: 1.5em;">T&C</span><br>
+            <span class="ftitle" style="font-size: 1.5em;"> SUBSCRIBE</span><br>
           </div>
         </div>
       </div>
