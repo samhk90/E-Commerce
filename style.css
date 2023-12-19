@@ -111,21 +111,38 @@ header{
 }
 
 .sidebar{
-    
-    box-shadow: inset 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 5px;
+    box-shadow:    0 4px 8px 0 rgba(0,0,0,1.5);
+}
+@media (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
 }
 .stitle{
     margin: 10px;
     font-size: 1.5em;
+    height: 40px;
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: yellow;
+    padding: 2px;
+}
+#currentpage{
+    background-color: #33333344;
+    transform: scale(1.05);
+    margin: 10px;
+    font-weight: bold;
 }
 .stitle:hover{
-    border-radius: 5px;
+    background-color: #33333344;
     transform: scale(1.05);
-    border: solid 2px #333;
     margin: 10px;
+    font-weight: bold;
+}
+#signout{
+    position:sticky;
+    top: 100%;
+
 }
 .footer{
     margin-top: 20px;
@@ -151,30 +168,87 @@ header{
 .pbox{
     width: 100%;
     height: 100%;
-    margin: 20px;
+    margin: 5px;
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
     border-radius: 5px;
-    padding: 20px;
+
 }
 .ptitle{
     color:gray;
     font-size: 1.2em;
     font-weight: bold;
-    margin: 10px ;
+    margin: 20px auto ;
     width: 100%;
 }
 .pinfo{
-    display:flex;
-    flex-direction: row;
-    width: 100%;
+    width: auto;
     flex-wrap: wrap;
-    margin: 0px;
-    padding: 10px;
+    margin: 20px;
+    padding: 5px;
     font-size: 1.2em;
-    font-weight: bold;
-    box-shadow: inset 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
-    letter-spacing: 3px;
+    background-color: #f5f5f5;
+}
+.cart{
+    /* width: 100%; */
+    height: 100%;
+    /* margin: 5px;
+    padding: 20px; */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
+    border-radius: 5px;
+}
+.ctcard{
+    /* width: 100%; */
+    height: 100%;
+    margin: 0px;
+    padding: 20px;
+    color: black;
+    box-shadow: 4px 0px 8px 0 rgba(0,0,0,0.5);
+    /* background-color: rgb(208, 208, 208); */
+    border-bottom: solid 2px rgb(76, 76, 76,0.5);
+}
+.ctimg{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
+    border-radius: 5px;
+}
+.bill{
+    width: 280px;
+    height: 250px;
+
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
+    border-radius: 5px;
+}
+.btitle{
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+
+}
+.btotal{
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+    font-size: large;
+    font-weight: bold;
+}
+.bbtn{
+    width: 100%;
+    height: 80%;
+    margin: 10px auto;
+    padding: 2px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
 }
