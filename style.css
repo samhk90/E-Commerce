@@ -51,31 +51,39 @@ header{
     z-index: 0;
 } */
 .pcard{
-    height: 320px;
-    width: 200px;
+    height: 450px;
+    width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
     background-color: white;
     border-radius: 5px ;
-    animation: linear 0.5s;
+    margin-bottom: 100px;
 
 }
-.pcard:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,2.5);
+/* .pcard:hover{
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,2.5);
     transform: scale(1.05);
-}
+} */
 .pcard img{
     
-    height: 200px;
+    height: 280px;
     width: 100%;
     border-radius: 5px;
+    transition: transform .2s; 
+}
+.pcard:hover img {
+    transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .info{
     height:120px;
     text-align: left;
     font-size: 20px;
     font-weight: bold;
+    line-height: 20px;
+
+    
 }
 .info p{
+
     margin: 0;
     padding: 0;
     padding-left: 10px;
@@ -94,7 +102,8 @@ header{
     font-size: 0.8em;
 }
 .vtitle{
-    margin: 20px;
+
+    position: absolute;
     font-size: 2em;
     background-color: #333;
     width: 200px;
@@ -111,6 +120,7 @@ header{
 }
 
 .sidebar{
+    height: 700px;
     margin-top: 5px;
     box-shadow:    0 4px 8px 0 rgba(0,0,0,1.5);
 }

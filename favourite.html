@@ -65,37 +65,93 @@
   <div class="container-fluid p-5 ">
     <div class="row ">
       <div class="col-sm-2 p-3 sidebar ">
-        <div class="row d-flex align-items-center justify-content-center ">      <a class="stitle" id="currentpage" href="./dashboard.html"><i class="fa fa-user fa-solid " style="font-size:24px;margin:auto 10px;"></i>Profile</a></div>
+        <div class="row d-flex align-items-center justify-content-center ">      <a class="stitle"  href="./dashboard.html"><i class="fa fa-user fa-solid " style="font-size:24px;margin:auto 10px;"></i>Profile</a></div>
         <div class="row d-flex align-items-center justify-content-center ">      <a class="stitle" href="./cart.html"> <i class="fa fa-shopping-cart" style="font-size:24px;margin:auto 10px;"></i>Cart</a></div>
-        <div class="row d-flex align-items-center justify-content-center ">      <a class="stitle" href="./orderhistory.html"><i class="fa fa-file-text" style="font-size:24px;margin:auto 10px;"></i>Order History</a></div>
-        <div class="row d-flex align-items-center justify-content-center ">      <a class="stitle" href="./favourite.html"><i class="fa fa-heart" style="font-size:24px;margin:auto 10px;"></i>Favorites</a></div>
+        <div class="row d-flex align-items-center justify-content-center ">      <a class="stitle"  href="./orderhistory.html"><i class="fa fa-file-text" style="font-size:24px;margin:auto 10px;"></i>Order History</a></div>
+        <div class="row d-flex align-items-center justify-content-center ">      <a class="stitle" href="./favourite.html" id="currentpage"><i class="fa fa-heart" style="font-size:24px;margin:auto 10px;"></i>Favorites</a></div>
         <div class="row d-flex align-items-center justify-content-center  " id="signout">      <span class="  stitle"><a  href="home.html"><i class="fa fa-sign-out" style="font-size:24px;margin:auto 10px;"></i>Sign Out</a></span></div>
       </div>
-      <div class="col-sm-10">
+      <div class="col-sm-9 ms-4  cart p-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="title">Cart</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ctcard">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="./img/images.jpeg" alt="" class="ctimg">
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <span class="cttitle">Naruto Shippuden - Naruto Uzumaki (Rasengan) Pop! Vinyl Figure</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <span class="ctprice">Price: $10.99</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <span class="ctqty">Quantity: 1</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <span class="cttotal">Total: $10.99</span>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <span class="cttotal" style="color: green; font-weight:bold;">Delivered</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="pbox">
-          <h2 class="title">Profile</h2>
-          <span class="ptitle">Personal Information:</span><br>
-          <input type="text" class="pinfo" value="First name" disabled>
-          <input type="text" class="pinfo" value="last Name" disabled><br>
-          <span class="ptitle">Email:</span><br>
-          <input type="text" class="pinfo" value="Email" disabled><br>
-          <span class="ptitle">Gender:</span><br>
-          <input type="radio" name="male" id="male"><label for="male">Male</label>
-          <input type="radio"  name="female" id="female"><label  for="female">Female</label><br>
-          <span class="ptitle">Phone Number:</span><br>
-          <input type="text" class="pinfo"  value="90222094510" disabled><br>
-          <span class="ptitle">Country:</span><br>
-          <input type="text" class="pinfo" value="India" disabled><br>
-          <span class="ptitle">City:</span><br>
-          <input type="text" class="pinfo" value="Pune"  disabled><br>
-          <span class="ptitle">Address:</span><br>
-          <input type="text" class="pinfo" value="Flat No."  disabled>
-          <input type="text" class="pinfo" value="Street"  disabled><br>
-          <button class="btn btn-dark mt-3">Edit</button>
-          <button class="btn btn-primary mt-3">Home</button>
+    </div>
+    <div class="row">
+        <div class="ctcard">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./img/images.jpeg" alt="" class="ctimg">
+                </div>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <span class="cttitle">Naruto Shippuden - Naruto Uzumaki (Rasengan) Pop! Vinyl Figure</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <span class="ctprice">Price: $10.99</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <span class="ctqty">Quantity: 1</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <span class="cttotal">Total: $10.99</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <span class="cttotal" style="color: green; font-weight:bold;">Delivered</span>
+                            </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
+    </div>
+    
+    </div>
+  </div>
     </div>
   </div>
     
