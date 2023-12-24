@@ -21,6 +21,9 @@ body a{
     background-color:black !important;
     
 }
+#navlink:hover  {
+    text-shadow: 0 0 10px rgb(255, 255, 255) !important;
+}
 header{
     background-color: transparent;
 }
