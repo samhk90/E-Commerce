@@ -17,31 +17,43 @@ body a{
     text-decoration: none;
 }
 #nav{
-
-    background-color:black !important;
-    
+    background-color: #33333300;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356);
+}
+#nav a{
+    font-weight: bolder;
+    color: white !important;
 }
 #navlink:hover  {
-    text-shadow: 0 0 10px rgb(255, 255, 255) !important;
+    text-shadow: 0 0 10px rgb(0, 0, 0) !important;
 }
 header{
-    background-color: transparent;
-}
-.banner{
-
-    padding: 12%;
-    height: 100%;
-    width: 100%;
     background-image: url("https://wallpapercave.com/wp/wp5085173.jpg");
-     /* background-attachment: fixed;  */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment:local;
+    color: black;
+}
+
+.banner{
+    /* padding: 100px 0px 100px 0px; */
+    padding: 12%;
+    height: 100%;
+    width: 100%;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-
     text-align: center;
- 
+    animation: linear 0.5s;
+    color: black;
+}
+
+.banner span{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.51);
+    padding: 5px;
+    letter-spacing: 5px;
+    margin: auto;
+
 }
 /* .banner::before {
     content: "";
@@ -68,7 +80,7 @@ header{
     height: 280px;
     width: 100%;
     border-radius: 5px;
-    transition: transform .2s; 
+    transition: transform .5s; 
 }
 .pcard:hover img {
     transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
@@ -125,6 +137,9 @@ header{
     box-shadow:    0 4px 8px 0 rgba(0,0,0,1.5);
 }
 @media (max-width: 767px) {
+    .banner{
+        padding: 100px 0px 100px 0px;
+    }
     .sidebar {
         display: none;
     }
