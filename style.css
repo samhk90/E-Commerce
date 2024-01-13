@@ -133,23 +133,24 @@ header{
 .sidebar{
     height: 700px;
     margin-top: 5px;
-    box-shadow:    0 4px 8px 0 rgba(0,0,0,1.5);
+    /* box-shadow:    0 4px 8px 0 rgba(0,0,0,1.5); */
 }
 @media (max-width: 767px) {
     .banner{
         padding: 100px 0px 100px 0px;
     }
     .sidebar {
-        display: none;
+        height: auto;
     }
 }
 .stitle{
-    margin: 10px;
+    margin: 5px;
     font-size: 1.5em;
     height: 40px;
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 2px;
+    transition: all 0.2s ease-in;
 }
 #currentpage{
     background-color: #33333344;
@@ -165,7 +166,7 @@ header{
 }
 #signout{
     position:sticky;
-    top: 100%;
+
 
 }
 .footer{
@@ -177,6 +178,7 @@ header{
     color: white;
     text-decoration: none;
 }
+
 .ftitle{
  
     text-align: center;
@@ -198,6 +200,13 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
     border-radius: 5px;
 
+}
+@media (max-width: 767px) {
+    .pbox{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 .ptitle{
     color:gray;
@@ -227,25 +236,23 @@ header{
 .ctcard{
     /* width: 100%; */
     height: 100%;
-    margin: 0px;
+    margin:10px auto;
     padding: 20px;
     color: black;
     box-shadow: 4px 0px 8px 0 rgba(0,0,0,0.5);
-    /* background-color: rgb(208, 208, 208); */
     border-bottom: solid 2px rgb(76, 76, 76,0.5);
 }
 .ctimg{
     width: 100%;
     height: 100%;
-    margin: 5px;
+    /* margin: 10px; */
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
     border-radius: 5px;
 }
 .bill{
     width: 280px;
     height: 250px;
-
+    margin: 10px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
     border-radius: 5px;
