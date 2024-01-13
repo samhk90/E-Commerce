@@ -36,3 +36,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
      // Your code to run since DOM is loaded and ready
     });
+    const span = document.querySelector(".heart");
+    const i = document.getElementById("heart");
+    
+    span.addEventListener("click", function(e) {
+      i.classList.toggle("fa-heart");
+      i.classList.toggle("fa-heart-o");
+    });
+
+    // Attach event listener to each heart icon
+    i.forEach((heart) => {
+        heart.addEventListener('click', function() {
+            this.classList.toggle("fa-heart-o");
+        });
+    });
